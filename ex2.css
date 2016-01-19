@@ -1,0 +1,89 @@
+/*MadLibs 2.0 by Lillian Liu*/
+
+*{
+	margin:auto;
+	padding:0; 
+    background-color: #333333;
+}
+
+#container {
+    height:826px;
+    width:1024px; 
+    margin:auto; 
+}
+
+p{ 
+position:absolute; 
+left:40px;
+font-size: 16px; 
+color:white; 
+float:left; 
+z-index: 1; 
+font-weight: bold; 
+
+
+}
+figure { 
+position: relative; 
+display: inline-block;
+float:left; 
+width:512px; 
+height:768px;
+z-index: 0;
+
+}
+
+#theForm { 
+    position:relative; 
+    display:inline-block; 
+    float:left; 
+    height:100%; 
+    width:512px; 
+    padding-top:100px;
+
+}
+
+header { 
+padding-top: 50px;
+padding-left: 50px;
+padding-bottom:30px;
+font-size:30px;
+font-weight:bold;
+background-color: #F68F30;
+}
+
+
+
+
+body { 
+font-family: helvetica; 
+size: 14px; 
+color: white; 
+}
+
+form input { 
+    margin: 1px;
+    padding: 1px;
+    background-color: #DDDDDC; 
+    color: #F68F30; 
+    font-size: 14px; 
+}
+
+form input [type="submit"] { 
+color: #F3735D; 
+}
+
+form input [type="submit"]:hover,
+form input [type="reset"]:hover { 
+background-color:#B55A36; 
+}
+
+
+
+.hide { 
+    visibility: hidden;
+}
+
+.show { 
+    visibility: visible;
+}
