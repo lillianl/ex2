@@ -87,3 +87,37 @@ background-color:#B55A36;
 .show { 
     visibility: visible;
 }
+
+footer {
+   font-size:20px; 
+   bottom:0px;
+   height:50px;
+   width: 100%;
+   background:#F68F30;
+   text-align: center; 
+   margin-top: 100px;
+   padding-top: 20px;
+   font-family: 'helvetica';
+    display:block;
+}
+
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: #FFD460;
+    text-decoration: none;   
+}
+
+a:hover {
+    text-decoration: none;
+    color: #EA5455;
+}
+
+a:active {
+  color: #F07B3F;
+} 
+
